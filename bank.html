@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank-Calculation</title>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/app.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  
+</head>
+<body>
+    <header>
+        <div>
+            <h2 class="text-center text-stone-700 mt-10 text-5xl font-semibold"><span class="text-violet-800">ABBU !!!</span> Let's Give a Some Moneeeey !!! </h2>
+        </div>
+
+    </header>
+    <!-- Direct Balance Section -->
+    <main>
+        <section class="mt-8">
+            <div class="grid grid-cols-3 gap-5 w-9/12 mx-auto">
+                <div class="bg-green-400 px-10 py-12 rounded-lg">
+                    <h2 class="text-3xl font-semibold ">Deposit Money</h2>
+                    <h3 class="text-5xl font-medium mt-4 text-stone-700">$00</h3>
+                </div>
+
+                <div class="bg-amber-300	 px-10 py-10 rounded-lg">
+                    <h2 class="text-3xl font-semibold">Withdraw Money</h2>
+                    <h3 class="text-5xl font-medium mt-4 text-stone-700">$00</h3>
+                </div>
+
+                <div class="bg-fuchsia-400 px-10 py-12 rounded-lg">
+                    <h2 class="text-3xl font-semibold">Cash Balance</h2>
+                    <h3 class="text-5xl font-medium mt-4 text-stone-700">$1240</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Direct Balance Section -->
+    <!-- Balance Input Section -->
+    <section>
+        <div class="grid grid-cols-2 gap-2 w-9/12 mx-auto">
+            
+    <main class="w-11/12 bg-emerald-600 mx-auto mt-14 p-5 rounded-lg text-center">
+        <h2 class="text-3xl mb-3 font-semibold text-stone-200">Please Deposit Here</h2>
+        <div class="">
+            <input id="deposit-field" class="w-9/12 block mb-3 px-2 py-2 mx-auto rounded-md"  type="number" placeholder="Enter Your Amount">
+            <button id="deposit-btn" class="px-10 font-medium rounded-md text-xl transition duration-100 text-slate-800 hover:bg-fuchsia-800 hover:text-stone-100  py-3 bg-sky-200 ">Deposit</button>
+        </div>
+    </main>
+
+    <main class="w-11/12 bg-emerald-600 mx-auto mt-14 p-5 rounded-lg text-center">
+        <h2 class="text-3xl mb-3 font-semibold text-stone-200">You Can Withdraw Here</h2>
+        <div class="">
+            <input id="withdraw-field" class="w-9/12 block mb-3 px-2 py-2 mx-auto rounded-md"  type="number" placeholder="Enter Your Amount">
+            <button id="withdraw-btn" class="px-10 rounded-md font-medium text-xl transition duration-100 text-slate-800 hover:bg-fuchsia-800 hover:text-stone-100  py-3 bg-sky-200 ">Withdraw</button>
+        </div>
+    </main>
+        </div>
+    </section>
+    <!-- Balance Input Section -->
+
+
+
+
+
+    <!-- main js file -->
+    <script src="js/bank.js"></script>
+</body>
+</html>
